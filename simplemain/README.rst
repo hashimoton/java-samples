@@ -1,5 +1,5 @@
 ***************
-Main
+Simple Main
 ***************
 
 The minimal console application in Java.
