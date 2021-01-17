@@ -39,15 +39,16 @@ Basic
 -----------
 
 - Minimal Console Application: simplemain_
-
 .. _simplemain: ./simplemain
+
+- Java Package: javapackage_
+.. _javapackage: ./javapackage
 
 
 Servlet
 -----------
 
 - Simple Web Server: webserver_
-
 .. _webserver: ./webserver
 
 
