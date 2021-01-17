@@ -38,12 +38,18 @@ Samples
 Basic
 -----------
 
-- [Minimal Console Application](simplemain)
+- Minimal Console Application: simplemain_
+
+.. _simplemain: ./simplemain
+
 
 Servlet
 -----------
 
-- [Simple Web Server](webserver)
+- Simple Web Server: webserver_
+
+.. _webserver: ./webserver
+
 
 
 ======================
