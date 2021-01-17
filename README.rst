@@ -1,0 +1,56 @@
+****************************
+Java Samples
+****************************
+
+Simple Java code samples.
+
+======================
+Overview
+======================
+
+Objective
+---------------
+
+A simple, minimal Java code sample helps to verify various things around Java.
+
+Expected use cases:
+
+- Observe thread dump
+- Observe heap consumption
+- Try build tools
+
+
+Guidelines
+---------------
+
+The samples should follow the guidelines below As much as possible.
+
+- Simple structure and code
+- Minimal dependencies
+- Testable with command line 
+
+
+
+======================
+Samples
+======================
+
+Basic
+-----------
+
+- [Minimal Console Application](simplemain)
+
+Servlet
+-----------
+
+- [Simple Web Server](webserver)
+
+
+======================
+License
+======================
+
+Public Domain unless particular license is specified for the module.
+
+.. EOF
+
