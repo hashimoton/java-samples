@@ -8,7 +8,7 @@ import com.sun.net.httpserver.HttpExchange;
 public class SimpleHandler implements HttpHandler {
   
   public void handle(HttpExchange t) throws IOException {
-  	System.out.println("Requested");
+    System.out.println("Requested");
     String response = "Simple Web Server\n";
     t.sendResponseHeaders(200, response.length());
     OutputStream os = t.getResponseBody();
