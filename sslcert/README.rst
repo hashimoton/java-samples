@@ -40,8 +40,7 @@ Run
   [
   [
     Version: V3
-    Subject: CN=www.example.org, O=Internet Corporation for Assigned Names and Num
-bers, L=Los Angeles, ST=California, C=US
+    Subject: CN=www.example.org, O=Internet Corporation for Assigned Names and Numbers, L=Los Angeles, ST=California, C=US
   ...
   $
 
