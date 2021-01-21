@@ -44,6 +44,9 @@ Basic
 - Java Package: javapackage_
 .. _javapackage: ./javapackage
 
+- Show SSL Certificates: sslcert_
+.. _sslcert: ./sslcert
+
 
 Servlet
 -----------
