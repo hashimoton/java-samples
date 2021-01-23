@@ -47,6 +47,9 @@ Basic
 - Another Package: anotherpackage_
 .. _anotherpackage: ./anotherpackage
 
+- Read Line: readline_
+.. _readline: ./readline
+
 - Show SSL Certificates: sslcert_
 .. _sslcert: ./sslcert
 
