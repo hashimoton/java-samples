@@ -44,6 +44,9 @@ Basic
 - Java Package: javapackage_
 .. _javapackage: ./javapackage
 
+- Another Package: anotherpackage_
+.. _anotherpackage: ./anotherpackage
+
 - Show SSL Certificates: sslcert_
 .. _sslcert: ./sslcert
 
