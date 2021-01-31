@@ -18,6 +18,7 @@ Expected use cases:
 - Observe thread dump
 - Observe heap consumption
 - Try build tools
+- Troubleshoot errors
 
 
 Guidelines
@@ -60,6 +61,12 @@ Servlet
 - Simple Web Server: webserver_
 .. _webserver: ./webserver
 
+
+Errors
+-----------
+
+- NullPointerException: nullpointerexception_
+.. _nullpointerexception: ./nullpointerexception
 
 
 ======================
