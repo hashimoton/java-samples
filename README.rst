@@ -48,6 +48,9 @@ Basic
 - Another Package: anotherpackage_
 .. _anotherpackage: ./anotherpackage
 
+- Extended Class: extendedclass_
+.. _extendedclass: ./extendedclass
+
 - Read Line: readline_
 .. _readline: ./readline
 
