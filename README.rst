@@ -51,6 +51,9 @@ Basic
 - Extended Class: extendedclass_
 .. _extendedclass: ./extendedclass
 
+- Abstract Class: abstractclass_
+.. _abstractclass: ./abstractclass
+
 - Read Line: readline_
 .. _readline: ./readline
 
