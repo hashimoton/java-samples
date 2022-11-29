@@ -36,7 +36,7 @@ The samples should follow the guidelines below As much as possible.
 Samples
 ======================
 
-Basic
+Basics
 -----------
 
 - Minimal Console Application: simplemain_
@@ -64,7 +64,7 @@ Basic
 .. _sslcert: ./sslcert
 
 
-Servlet
+Servlets
 -----------
 
 - Simple Web Server: webserver_
