@@ -57,6 +57,9 @@ Basic
 - Read Line: readline_
 .. _readline: ./readline
 
+- Short Sleeper: shortsleeper_
+.. _shortsleeper: ./shortsleeper
+
 - Show SSL Certificates: sslcert_
 .. _sslcert: ./sslcert
 
