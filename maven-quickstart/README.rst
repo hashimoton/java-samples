@@ -56,6 +56,38 @@ Run
   $
 
 
+Package
+-------------
+
+$ mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------------< local.demo:maven-quickstart >---------------------
+[INFO] Building maven-quickstart 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+...
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running local.demo.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in local.demo.AppTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.559 s
+[INFO] Finished at: 2024-03-18T00:01:50+09:00
+[INFO] ------------------------------------------------------------------------
+$
+$ java -cp target/maven-quickstart-1.0-SNAPSHOT.jar local.demo.App
+Hello World!
+$
+
+
 =========================
 How this was generated
 =========================

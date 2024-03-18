@@ -71,6 +71,13 @@ Servlets
 .. _webserver: ./webserver
 
 
+Maven
+-----------
+
+- Minimum demo of Maven archetype: maven-quickstart_
+.. _maven-quickstart: ./maven-quickstart
+
+
 Errors
 -----------
 
