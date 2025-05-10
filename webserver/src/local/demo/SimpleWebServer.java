@@ -5,7 +5,7 @@ import java.net.InetSocketAddress;
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpHandler;
 
-public class SimpleServer {
+public class SimpleWebServer {
   
   public static void main(String args[]) {
     try {
@@ -13,7 +13,7 @@ public class SimpleServer {
       server.createContext("/", new SimpleHandler());
       server.setExecutor(null);
       server.start();
-      System.out.println("Started");
+      System.out.println("Server started");
     } catch (IOException e) {
       e.printStackTrace();
     }

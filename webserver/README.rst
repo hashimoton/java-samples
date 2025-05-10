@@ -17,7 +17,7 @@ Structure
       └── local
           └── demo
               ├── SimpleHandler.java -- HTTP handler
-              └── SimpleServer.java -- HTTP server (main)
+              └── SimpleWebServer.java -- HTTP server (main)
 
 
 =============
@@ -30,7 +30,8 @@ Compile
 ::
 
   $ cd src
-  $ javac local/demo/SimpleServer.java
+  $ javac local/demo/SimpleWebServer.java
+  $ javac local/demo/SimpleHandler.java
 
 Run
 ------------
@@ -38,30 +39,33 @@ Run
 ::
 
   $ cd src
-  $ java local.demo.SimpleServer
-  Started
+  $ java local.demo.SimpleWebServer
+  Server started
 
 Verify
 -------------
 
-From another terminal, access http://localhost:8000 .
+From another terminal, access http://localhost:8000 with curl.
 
 ::
 
   $ curl http://localhost:8000
-  Simple Web Server
+  Simple
   $
 
 At the same time, the HTTP server should log requested/responded messages.
 
 ::
 
-  $ java local/demo/SimpleServer
-  Started
-  Requested
-  Responded
+  $ java local/demo/SimpleWebServer
+  Server started
+  Handler started
+  Handler ended
 
-If you access the URL with a browser, multiple messages will be logged at a time.
+If you repeart the curl command or access the URL with a browser, multiple messages will be logged.
+
+To stop the HTTP server, press Ctrl+C.
 
 
 .. EOF
+
