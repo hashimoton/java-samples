@@ -71,6 +71,13 @@ Servlets
 .. _webserver: ./webserver
 
 
+- Simple Servlet: simpleservlet_
+.. _simpleservlet: ./simpleservlet
+
+- Advanced Servlet: advancedservlet_
+.. _AdvancedServlet: ./advancedservlet
+
+
 Maven
 -----------
 
