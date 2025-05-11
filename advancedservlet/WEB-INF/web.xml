@@ -1,0 +1,19 @@
+<web-app>
+  <servlet>
+    <servlet-name>AdvancedServlet</servlet-name>
+    <servlet-class>local.demo.AdvancedServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdvancedServlet</servlet-name>
+    <url-pattern>/advanced</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RedirectServlet</servlet-name>
+    <servlet-class>local.demo.RedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RedirectServlet</servlet-name>
+    <url-pattern>/redirect</url-pattern>
+  </servlet-mapping>
+</web-app>
+
