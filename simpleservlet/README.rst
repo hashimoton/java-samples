@@ -1,5 +1,5 @@
 ***********************
-Simple Servelet
+Simple Servlet
 ***********************
 
 Run a simple servlet on servlet containers.
