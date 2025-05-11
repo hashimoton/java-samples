@@ -12,17 +12,16 @@ Structure
 
 ::
 
-├── advanced.jsp -- Advanced JSP sample
-├── README.rst
-├── simple.jsp -- The simple JSP
-├── src
-│   └── local
-│       └── demo
-│           ├── AdvancedServlet.java -- Process query parameter and POST request
-│           └── RedirectServlet.java -- Redirect to another page
-└── WEB-INF
-    └── web.xml -- Deployment configuration file
-
+  ├── advanced.jsp -- Advanced JSP sample
+  ├── README.rst -- This file
+  ├── simple.jsp -- The simple JSP
+  ├── src
+  │   └── local
+  │       └── demo
+  │           ├── AdvancedServlet.java -- Process query parameter and POST request
+  │           └── RedirectServlet.java -- Redirect to another page
+  └── WEB-INF
+      └── web.xml -- Deployment configuration file
 
 
 
