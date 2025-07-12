@@ -11,6 +11,17 @@ public class AnswerServlet extends HttpServlet
 
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
+    String url = request.getRequestURL()
+      + (request.getQueryString() != null ? "?" + request.getQueryString() : "");
+    log("doGet for " + url);
+
+    String cors = request.getParameter("cors");
+    if ("true".equals(cors)) {
+      response.setHeader("Access-Control-Allow-Origin", "http://example.com:8080");
+      response.setHeader("Vary", "Origin");
+    }
+
     response.setContentType("application/xml; charset=UTF-8");
     PrintWriter out = response.getWriter();
     out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
