@@ -95,7 +95,7 @@ Create a symllink to the webapp.
 ::
 
   # cd  /opt/jetty-distribution-9.4.57.v20241219/webapps
-  # ln -s /path/to/java-samples/ajax .
+  # ln -s /path/to/ajax .
  
 
 Get data from same origin
