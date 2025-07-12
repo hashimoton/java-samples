@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>AnswerServlet</servlet-name>
+    <servlet-class>local.demo.AnswerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnswerServlet</servlet-name>
+    <url-pattern>/answer.xml</url-pattern>
+  </servlet-mapping>
+</web-app>
+
