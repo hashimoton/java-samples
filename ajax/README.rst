@@ -2,7 +2,7 @@
 AJAX
 ***********************
 
-Historical AJAX call and CORS header
+Historical AJAX calls and CORS headers.
 
 
 ==============

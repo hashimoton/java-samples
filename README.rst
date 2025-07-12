@@ -77,6 +77,9 @@ Servlets
 - Advanced Servlet: advancedservlet_
 .. _AdvancedServlet: ./advancedservlet
 
+- Historical AJAX calls and CORS headers: ajax_
+.. _ajax: ./ajax
+
 
 Maven
 -----------
