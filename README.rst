@@ -91,6 +91,9 @@ Errors
 - NullPointerException: nullpointerexception_
 .. _nullpointerexception: ./nullpointerexception
 
+- Hellpful NullPointerException: helpfulnpe_
+.. _helpfulnpe: ./helpfulnpe
+
 
 ======================
 License
