@@ -183,7 +183,7 @@ Further studies
 
 - Use POST request
 - Implement doOptions() for preflight OPTIONS requests
-= Rewrite the JSP files with Fetch API
+- Rewrite the JSP files with Fetch API
 
 
 ===============
