@@ -43,15 +43,15 @@ public class ResultServlet extends HttpServlet {
     response.getWriter().write(
       "<html><body>" +
       "<h1>" + result + "</h1>" +
-      "You: " + handName(userMove) + "<br>" +
-      "Com: " + handName(serverMove) + "<br>" +
+      "You: " + moveName(userMove) + "<br>" +
+      "Com: " + moveName(serverMove) + "<br>" +
       "<a href=\"./choose.jsp\">Play again</a>" +
       "</body></html>"
     );
   }
 
 
-  private String handName(String move) {
+  private String moveName(String move) {
     switch(move) {
       case "R": return "Rock";
       case "P": return "Paper";

@@ -6,7 +6,7 @@ Choose your move.
   <label><input type="radio" name="move" value="R"> Rock</label>
   <label><input type="radio" name="move" value="P"> Paper</label>
   <label><input type="radio" name="move" value="S"> Scissors</label>
-  <input type="submit" value="Play!">
+  <input type="submit" value="Shoot!">
 </form>
 </body>
 </html>
