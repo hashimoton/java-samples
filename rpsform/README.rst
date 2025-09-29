@@ -15,11 +15,14 @@ Structure
   ├── choose.jsp -- Move choise form (application/x-www-form-urlencoded)
   ├── multipart.jsp -- Move choise form (multipart/form-data)
   ├── README.rst -- This file
+  ├── result.jsp -- Show result (PRG GET)
   ├── src
   │   └── local
   │       └── demo
+  │           ├── JudgeServlet.java -- Judge (PRG Redirect)
   │           ├── MultipartServlet.java -- Show result (multipart/form-data)
-  │           └── ResultServlet.java  -- Show result (application/x-www-form-urlencoded)
+  │           └── ResultServlet.java -- Show result (application/x-www-form-urlencoded)
+  ├── start.jsp -- Move choise form (PRG POST)
   └── WEB-INF
 
 
