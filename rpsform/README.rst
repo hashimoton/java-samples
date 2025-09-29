@@ -217,5 +217,76 @@ Note Content-Type header and the following lines for the payload which is sent a
   $
 
 
+Post, Redirect, Get (PRG) pattern
+-----------------------------------
+
+
+Monitor network communication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Open a new browser window with in-cognito mode.
+
+From DevTools, open Network tab.
+
+Play the game
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Go to the game form at the following URL.
+
+http://localhost:8080/rpsform/start.jsp
+
+Choose "Rock" then click "Shoot!".
+
+You see either of "WIN!", "LOSE!", or "TIE!" in the result page.
+
+Review each requests
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The start page has a form.
+
+GET http://localhost:8080/rpsform/start.jsp
+
+Submitting the form sends a POST request to a servlet.
+
+POST http://localhost:8080/rpsform/judge
+
+The servlet redirects to the result page.
+
+Status code: 302 Not Found
+
+Location: http://localhost:8080/rpsform/result.jsp
+
+The result page is shown via a GET request. 
+
+GET http://localhost:8080/rpsform/result.jsp
+
+
+Effect of reloading
+~~~~~~~~~~~~~~~~~~~~~
+
+Rload the result page. You will be taken to the start page.
+
+
+Session
+-----------------
+
+During the redirection from the servlet to the result page, there is no explicit transfer of parameters.
+In the example here, the parameters to show the result page are stored as "session" data.
+
+
+The start page responds with "set-cookie" response header, for starting a session.
+
+GET http://localhost:8080/rpsform/start.jsp
+
+set-cookie: JSESSIONID=node01wxjnzo8f62tl13eo2a27wqv4o4.node0; Path=/rpsform
+
+The subsequent requests contain Cookie request header which inherits the value that the start page set.
+
+Cookie: JSESSIONID=node01wxjnzo8f62tl13eo2a27wqv4o4.node0
+
+
+In the example here, the result page reads the required parameters in the session then clears them, in order to show the reuslt only once.
+
+
 .. EOF
 

@@ -1,0 +1,12 @@
+<html>
+<head><title>RPS</title></head>
+<body>
+Choose your move.
+<form method="post" action="./judge">
+  <label><input type="radio" name="move" value="R"> Rock</label>
+  <label><input type="radio" name="move" value="P"> Paper</label>
+  <label><input type="radio" name="move" value="S"> Scissors</label>
+  <input type="submit" value="Shoot!">
+</form>
+</body>
+</html>
