@@ -80,6 +80,9 @@ Servlets
 - Historical AJAX calls and CORS headers: ajax_
 .. _ajax: ./ajax
 
+- Rock-Paper-Scissors game for form requests: rpsform_
+.. _rpsform: ./rpsform
+
 
 Maven
 -----------
