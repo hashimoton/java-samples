@@ -64,6 +64,17 @@ public class MultipartServlet extends HttpServlet {
   }
 
 
-  private String getUserMove(HttpServletRequest request) throws IOException, ServletException {                             String move = request.getParameter("move");                                                                             if (move == null) {                                                                                                       Part movePart = request.getPart("move");                                                                                if (movePart != null) {                                                                                                   try (var is = movePart.getInputStream()) {                                                                                move = new String(is.readAllBytes()).trim();                                                                          }                                                                                                                     }                                                                                                                     }                                                                                                                       return move;                                                                                                          }
+  private String getUserMove(HttpServletRequest request) throws IOException, ServletException {
+    String move = request.getParameter("move");
+    if (move == null) {                
+      Part movePart = request.getPart("move");
+      if (movePart != null) {
+        try (var is = movePart.getInputStream()) {
+          move = new String(is.readAllBytes()).trim();
+        }
+      }
+    }
+    return move;
+  }
+  
 }
-
